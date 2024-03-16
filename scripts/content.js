@@ -18,7 +18,8 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
       modalDialogTextDiv = document.createElement("div"); 
       modalDialogTextDiv.setAttribute("style" , "text-align:center");
       
-      modalDialogTextSpan = document.createElement("span"); 
+      modalDialogTextSpan = document.createElement("span");
+      modalDialogTextSpan.setAttribute("style","color: black");
       modalDialogText = document.createElement("strong"); 
       modalDialogText.innerHTML = content;
 
